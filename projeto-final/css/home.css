@@ -1,0 +1,179 @@
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+}
+
+header {
+    padding: 5px 0;
+    font-family:'Reggae One', Verdana, Geneva, Tahoma, sans-serif;
+    background: #CCCCCC;
+}
+
+header div {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.home span { 
+    vertical-align: middle;
+}
+
+h1 {
+    padding-left: 20px;
+    font-family:'Reggae One', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav {
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    color: #C78C19;
+}
+
+.centralizado {
+    padding: 5% 0;
+    margin: 0 10%;
+}
+
+.home nav {
+    right: 0;
+}
+
+#img-home-log{
+    width: 120px;
+    margin: 10px;
+}
+
+#img-banner {
+    width:100%;
+}
+
+.info-principal {
+    padding: 1em;
+    line-height: 25px;
+}
+
+.titulo-principal {
+    font-size: 2em;
+    padding: 0 1em 1em 0;
+    clear: left;
+}
+
+#img-utensilios {
+    width: 10%;    
+    float: left;
+    padding: 0 1em 1em 0;
+}
+
+#nossa-missao {
+    font-size: 20px;
+}
+
+.mapa {
+    text-align: center;
+}
+
+.mapa p {
+    margin: 1em 0;
+}
+
+.section-info-beneficios {
+    background: linear-gradient(#FFFFFF , #f9c74f)
+}
+
+.info-beneficios ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
+.info-beneficios li{
+    font-style: italic;
+    line-height: 1.5em;    
+}
+
+.info-beneficios li:before{
+    content: "★ ";
+}
+
+#img-beneficios {
+    width: 45%;    
+    box-shadow: 15px 15px 15px #000000;
+}
+
+.video{
+    text-align: center;
+}
+
+.section-video {
+    background: #f9c74f;
+}
+
+footer {
+    text-align: center;
+    background: #000000;
+    height: 170px;
+}
+
+footer img {
+    float: right;
+    width: 120px;    
+}
+
+#copyright {
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+
+@media screen and (max-width: 480px){
+    
+    html {
+        font-size: 0.8em;
+    }
+
+    header div {
+        width: auto;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .titulo-principal {
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .info-beneficios ul {
+        width: 100%;
+    }
+
+    #img-beneficios {
+        width: 80%;
+    }
+    
+}

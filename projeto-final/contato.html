@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Produtos - Barbearia Alura</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/contato.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&family=Reggae+One">
+    </head>
+
+    <body class="contato">
+        <header>
+            <div class="barra-navegacao">
+                <h1>
+                    <img id="img-logo" src="img/logo.png" alt="logo da Barbearia Alura">
+                </h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main-formulario">
+         <form>
+            <fieldset>
+                <label for="nome-sobrenome">Nome e sobrenome</label>
+                <input type="text"id="nome-sobrenome" class="input-padrao" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@com">
+                
+                <label for="telefone">Telefone</label>
+                <input type="number" id="telefone" class="input-padrao" required placeholder="(00) 0000-0000">
+                
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+            </fieldset>
+             
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+                <label for="radio-email">
+                    <input id="radio-email" type="radio" value="email" name="contato">
+                    Email
+                </label>
+            
+                <label for="radio-telefone">
+                    <input id="radio-telefone" type="radio" value="email" name="contato">
+                    Telefone
+                </label>
+            
+                <label for="radio-whatsapp">
+                    <input id="radio-whatsapp" type="radio" value="email" name="contato" checked>
+                    WhatsApp
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual o horário prefere ser atendido?</legend>
+                <select>
+                    <option>Manhã</option>
+              
+                    <option>Tarde</option>
+              
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <label for="novidades-email">
+                    <input type="checkbox" id="novidades-email" checked>
+                    Gostariade receber nossas novidades por email?
+                </label>
+            </fieldset>
+
+            <input type="submit" value="Enviar Formulário" id="botao-enviar-formulario">
+         </form>
+         <table>
+             <thead>
+                 <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+             </thead>
+             <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Segunda</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+             </tbody>
+         </table>
+        </main>
+        <footer>
+            <img src="img/logo-branco.png" alt="logo da Barbearia Alura">
+            <p id="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+        </footer>
+    </body>
+
+</html>
